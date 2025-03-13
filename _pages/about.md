@@ -19,7 +19,7 @@ redirect_from:
 
 Hello, I am a final-year Master's student at the University of Science and Technology of China (USTC), under the supervision of Professor Qiu Bensheng. I obtained my Bachelor's degree in 2022 from the College of Communication Engineering at Jilin University. 
 
-My research interests include AI, chip design, 3D FPGA, cryogenic semiconductors, MRI, and multi-agent systems. I am currently completing my final year at USTC. I welcome discussions and collaborations on related research topics.
+My research interests include AI, chip design, 3D FPGA, cryogenic semiconductors, MRI, and multi-agent systems. I am currently completing my final year at USTC. Welcome to discuss with me on related research topics!
 
 
 # 🔥 News
@@ -54,12 +54,12 @@ My research interests include AI, chip design, 3D FPGA, cryogenic semiconductors
 
 
 # 📖 Educations
-- *2019.06 - 2022.04 (now)*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2015.09 - 2019.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- *2022.09 - 2025.06 (now)*, Master Student, Electronic and Information Engineering, University of Science and Technology of China. 
+- *2018.08 - 2022.06*, Bachelor Student, Communication Engineering, Jilin University. 
 
 # 💬 Invited Talks
-- *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/)
+<!-- - *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/) -->
 
 # 💻 Internships
 - *2019.05 - 2020.02*, [Lorem](https://github.com/), China.
