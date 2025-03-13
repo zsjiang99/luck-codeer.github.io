@@ -24,7 +24,7 @@ My research interests include AI, chip design, 3D FPGA, cryogenic semiconductors
 
 # 🔥 News
 - *2025.03*: &nbsp;🎉🎉 Selected as a candidate for Outstanding Graduate of Anhui Province.
-- *2022.03*: &nbsp;🎉🎉 Selected as a candidate for Outstanding Graduate of the University of Science and Technology of China
+- *2025.03*: &nbsp;🎉🎉 Selected as a candidate for Outstanding Graduate of the University of Science and Technology of China
 
 # 📝 Publications 
 
