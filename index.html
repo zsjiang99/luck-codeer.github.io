@@ -3,54 +3,142 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Zhiyao Xie - Personal Website</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Zesong Jiang - Academic Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #f4f4f4, #d1d1d1);
+            color: #333;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #444;
+            padding: 10px;
+        }
+        nav a {
+            color: #fff;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .container {
+            display: flex;
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .profile {
+            flex: 1;
+            padding-right: 20px;
+            text-align: center;
+        }
+        .profile img {
+            border-radius: 10px;
+            width: 200px;
+            height: auto;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .content {
+            flex: 3;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .section {
+            margin-bottom: 30px;
+        }
+        .section h2 {
+            border-bottom: 2px solid #333;
+            padding-bottom: 5px;
+        }
+        .awards ul, .publications ul, .experience ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .awards li, .publications li, .experience li {
+            background-color: #f9f9f9;
+            margin: 10px 0;
+            padding: 10px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
 </head>
 <body>
     <header>
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#publications">Publications</a></li>
-                <li><a href="#students">Students</a></li>
-                <li><a href="#experience">Experience</a></li>
-                <li><a href="#talks">Talks</a></li>
-                <li><a href="#recruitment">Recruitment</a></li>
-            </ul>
-        </nav>
+        <h1>Zesong Jiang</h1>
+        <p>M.S. in Electronic Engineering, University of Science and Technology of China</p>
     </header>
-    <section id="home" class="profile">
-        <img src="profile.jpg" alt="Zhiyao Xie">
-        <h1>Zesong Jiang (江泽松)</h1>
-        <h2>Master Student</h2>
-        <h3>USTC</h3>
-        <p></p>
-        <div class="contact">
-            <a href="#">Email</a> | <a href="#">LinkedIn</a> | <a href="#">Github</a> | <a href="#">Google Scholar</a> | <a href="#">Publons</a>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#publications">Publications</a>
+        <a href="#experience">Experience</a>
+        <a href="#awards">Awards</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="container">
+        <div class="profile">
+            <img src="profile.jpg" alt="Zesong Jiang">
+            <h2>Zesong Jiang</h2>
+            <p>M.S. in Electronic Engineering, University of Science and Technology of China</p>
         </div>
-    </section>
-    <section id="publications">
-        <h2>Publications</h2>
-        <p>List of publications and research works...</p>
-    </section>
-    <section id="students">
-        <h2>Students</h2>
-        <p>Information about students supervised...</p>
-    </section>
-    <section id="experience">
-        <h2>Experience</h2>
-        <p>Work and research experience details...</p>
-    </section>
-    <section id="talks">
-        <h2>Talks</h2>
-        <p>Details of talks and presentations...</p>
-    </section>
-    <section id="recruitment">
-        <h2>Recruitment</h2>
-        <p>Opportunities and openings for students...</p>
-    </section>
+        <div class="content">
+            <div id="about" class="section">
+                <h2>About</h2>
+                <p>I am currently pursuing my M.S. in Electronic Engineering at the University of Science and Technology of China (USTC), with a GPA of 3.87/4.3 (top 3% in major). I completed my B.E. in Communication Engineering at Jilin University with a GPA of 3.79/4.0 (top 5% in major). My research interests include electronic design automation (EDA), FPGA design, and signal processing.</p>
+            </div>
+            <div id="publications" class="section">
+                <h2>Publications</h2>
+                <ul>
+                    <li>"IICPilot: An Intelligent Integrated Circuit Backend Design Framework Using Open EDA" (submitted to ASP-DAC 2024)</li>
+                    <li>"Towards the Generalization of Deep Learning Accelerators" (submitted to IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems)</li>
+                    <li>"Break the Cold Barrier: An In-Depth Study on FPGA Performance and Design Optimization at Cryogenic Temperature" (accepted by CCF Chip 2024)</li>
+                </ul>
+            </div>
+            <div id="experience" class="section">
+                <h2>Experience</h2>
+                <ul>
+                    <li><strong>Research Intern</strong>, Institute of Computing Technology, Chinese Academy of Sciences (Aug 2023 - Present)</li>
+                    <li><strong>Research Intern</strong>, Shanghai Processor Technology Innovation Center (Feb 2023 - Aug 2023)</li>
+                    <li><strong>IC Front-end Verification Intern</strong>, SOPHGO (Dec 2022 - Feb 2023)</li>
+                    <li><strong>Research Intern</strong>, Anhui FUQING Precision Physical Examination Equipment Co., Ltd (Dec 2021 - Present)</li>
+                </ul>
+            </div>
+            <div id="awards" class="section">
+                <h2>Awards</h2>
+                <ul>
+                    <li>Graduate Scholarship - First Prize, University of Science and Technology of China (2022, 2023)</li>
+                    <li>Undergraduate Scholarship - First Prize, Jilin University (2019, 2020, 2021, 2022)</li>
+                </ul>
+            </div>
+            <div id="contact" class="section">
+                <h2>Contact</h2>
+                <p>Email: jiangzesong@mail.ustc.edu.cn</p>
+                <p>Phone: 18172993676</p>
+            </div>
+        </div>
+    </div>
     <footer>
-        <p>&copy; 2024 Zesong Jiang. All rights reserved.</p>
+        <p>&copy; 2023 Zesong Jiang. All rights reserved.</p>
     </footer>
 </body>
 </html>
