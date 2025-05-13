@@ -8,7 +8,7 @@
 # Site Settings
 title                    : "Zesong Jiang"
 description              : "Research on AI, Chip design and etc. Enjoy the life! 🙂"
-repository               : "luck-codeer/luck-codeer.github.io"
+repository               : "zsjiang99/zsjiang99.github.io"
 google_scholar_stats_use_cdn : true
 
 # google analytics
@@ -37,7 +37,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : # e.g., "github username"
+  github           : zsjiang99
   google_plus      :
   keybase          :
   instagram        :
